@@ -1,13 +1,9 @@
 .banner {
-  height: 50vh;
-  // background-image: url(banner.jpg);
-  background-color: $color-primary;
+  height: 500px;
+  background-image: url(/assets/background_wave.svg);
   background-size: cover;
-}
-
-h1 {
-  font-size: $font-size-base * 8;
-  font-weight: 900;
-  line-height: $font-size-base * 5;
-  color: $color-txt-light;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }

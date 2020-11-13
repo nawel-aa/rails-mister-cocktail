@@ -1,0 +1,17 @@
+h1 {
+  font-size: $font-size-base * 13;
+  line-height: $font-size-base * 6;
+  color: $color-txt-light;
+  margin-bottom: 5rem;
+  font-weight: 900;
+  text-shadow: 5px 5px $color-primary;
+  
+  span {
+    font-size: $font-size-base * 6;
+    position: absolute;
+    bottom: -87px;
+    right: 0;
+    color: #fff;
+    padding-right: 2rem;
+  }
+}
