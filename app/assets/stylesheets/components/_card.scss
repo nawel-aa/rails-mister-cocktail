@@ -15,9 +15,13 @@
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   border-radius: 25px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  transition: border 200ms, font-size 300ms;
   
-  &hover span {
+  &:hover {
     text-decoration: none;
+    text-shadow: 2px 2px $color-primary;
+    font-size: $font-size-base * 2;
+    border: 5px solid $color-primary;
   }
 }
 

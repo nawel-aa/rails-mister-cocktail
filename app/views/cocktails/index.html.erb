@@ -4,7 +4,7 @@
     <div class="col col-12 col-md-6 col-lg-8 p-3">
     <div class="row">
       <% @cocktails.each do |cocktail| %>
-        <div class="col-12 col-lg-6 p-3">
+        <div class="cocktail-card col-12 col-lg-6 p-3">
         	<%= link_to cocktail_path(cocktail) do %>
         	  <div class="card-category" style="background-image: linear-gradient(rgba(143, 37, 132,0.3), rgba(242, 110, 37, .3)), url(<%= cl_image_path cocktail.photo.key, height: 300, width: 400, crop: :fill if cocktail.photo.attached? %>)">
         	      <span class="card-title"><%= cocktail.name %></span>
